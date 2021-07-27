@@ -3,6 +3,7 @@ let drivers = ["Milo", "Otis", "Garfield"];
 function destructivelyAppendDriver(name) {
     drivers.push(name);
 }
+destructivelyAppendDriver("Billy-Boy")
 function destructivelyPrependDriver(name) {
     drivers.unshift(name);
 }
